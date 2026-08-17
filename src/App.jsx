@@ -23,8 +23,8 @@ function App() {
     <div className="page-shell">
       <header className="topbar" aria-label="Main header">
         <div className="container nav-wrap">
-          <div className="brand" aria-label="Northstar Marketing home">
-            Northstar<span>Marketing</span>
+          <div className="brand" aria-label="VK Digital Marketing home">
+            VK<span>Digital Marketing</span>
           </div>
 
           <nav className="main-nav" aria-label="Main navigation">
@@ -35,7 +35,9 @@ function App() {
             ))}
           </nav>
 
-          <Button>Book a Consultation</Button>
+          <a href="#booking" className="btn header-cta">
+            Book a Consultation
+          </a>
         </div>
       </header>
 
@@ -51,8 +53,12 @@ function App() {
               </p>
 
               <div className="cta-row" aria-label="Call to action buttons">
-                <Button>Book a Consultation</Button>
-                <Button variant="secondary">View Case Studies</Button>
+                <a href="#booking" className="btn">
+                  Book a Consultation
+                </a>
+                <a href="#case-studies" className="btn btn-secondary">
+                  View Case Studies
+                </a>
               </div>
 
               <div className="trust-row" aria-label="Trust indicators">
@@ -184,7 +190,7 @@ function App() {
             </div>
 
             <div className="logo-link-row">
-              <a href="#" className="text-link-inline">
+              <a href="#case-studies" className="text-link-inline">
                 View More Clients
               </a>
             </div>
@@ -252,8 +258,112 @@ function App() {
           </div>
         </section>
 
+        <section className="section-spacing cta-banner" aria-labelledby="cta-banner-title">
+          <div className="container cta-banner-inner">
+            <div>
+              <p className="eyebrow">Growth conversations</p>
+              <h2 id="cta-banner-title">Ready to build a smarter marketing engine for your business?</h2>
+            </div>
+
+            <div className="cta-banner-actions">
+              <a href="#booking" className="btn">
+                Book a Consultation
+              </a>
+              <a href="#case-studies" className="btn btn-secondary">
+                View Case Studies
+              </a>
+            </div>
+          </div>
+        </section>
+
         <BookingWizard />
+
+        <section className="section-spacing about-section" id="about">
+          <div className="container about-grid">
+            <div className="about-copy">
+              <p className="eyebrow">About us</p>
+              <h2>We help WA businesses turn marketing into measurable commercial momentum.</h2>
+              <p>
+                Northstar Marketing is a Perth-based growth partner for service businesses and ambitious local brands.
+                We combine strategic clarity with practical execution to improve acquisition, strengthen positioning,
+                and create more predictable pipeline growth.
+              </p>
+              <p>
+                Our philosophy is simple: marketing should be clear, accountable, and built around the outcomes that matter
+                most to your business. From positioning and campaigns to conversion optimisation, we focus on what moves the needle.
+              </p>
+              <a href="#booking" className="btn">
+                Book a Consultation
+              </a>
+            </div>
+
+            <div className="about-panel">
+              <div className="about-stat">
+                <strong>Local-first</strong>
+                <span>Market insight built for Perth and WA.</span>
+              </div>
+              <div className="about-stat">
+                <strong>Strategy-led</strong>
+                <span>Clear priorities, measurable goals, and practical execution.</span>
+              </div>
+              <div className="about-stat">
+                <strong>Results-focused</strong>
+                <span>Every recommendation is tied to performance, efficiency, and ROI.</span>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
+
+      <footer className="site-footer">
+        <div className="container footer-grid">
+          <div>
+            <div className="brand footer-brand" aria-label="Northstar Marketing home">
+              Northstar<span>Marketing</span>
+            </div>
+            <p className="footer-text">
+              Performance-focused marketing support for ambitious Perth and WA businesses.
+            </p>
+          </div>
+
+          <div>
+            <h3>Navigation</h3>
+            <ul className="footer-links">
+              <li><a href="#services">Services</a></li>
+              <li><a href="#why-us">Why Us</a></li>
+              <li><a href="#process">Process</a></li>
+              <li><a href="#case-studies">Case Studies</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Services</h3>
+            <ul className="footer-links">
+              <li><a href="#services">SEO</a></li>
+              <li><a href="#services">Paid Ads</a></li>
+              <li><a href="#services">Social Media</a></li>
+              <li><a href="#services">Lead Generation</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Contact</h3>
+            <ul className="footer-links">
+              <li><a href="#booking">Book a consultation</a></li>
+              <li><a href="mailto:hello@northstarmarketing.com.au">hello@northstarmarketing.com.au</a></li>
+              <li><a href="tel:+61800000000">+61 8 0000 0000</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="container footer-bottom">
+          <span>© 2026 Northstar Marketing</span>
+          <div className="legal-links">
+            <a href="#about">Privacy</a>
+            <a href="#about">Terms</a>
+          </div>
+        </div>
+      </footer>
     </div>
   )
 }

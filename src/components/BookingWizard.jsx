@@ -236,7 +236,7 @@ function BookingWizard() {
   }
 
   return (
-    <section className="booking-section" aria-labelledby="booking-heading">
+    <section id="booking" className="booking-section" aria-labelledby="booking-heading">
       <div className="container">
         <div className="booking-card">
           <div className="booking-header">
