@@ -19,7 +19,7 @@ section[id] {
 }
 
 .section-spacing {
-  padding: 96px 0;
+  padding: 96px;
 }
 
 .section-surface {
@@ -674,10 +674,6 @@ section[id] {
   text-decoration: none;
 }
 
-.cta-banner {
-  padding-top: 0;
-}
-
 .cta-banner-inner {
   display: flex;
   align-items: center;
@@ -706,7 +702,7 @@ section[id] {
 }
 
 .booking-section {
-  padding: 0 0 96px;
+  padding: 96px;
 }
 
 .booking-card {

@@ -227,6 +227,24 @@ function App() {
           </div>
         </section>
 
+        <section className="section-spacing cta-banner" aria-labelledby="cta-banner-title">
+          <div className="container cta-banner-inner">
+            <div>
+              <p className="eyebrow">Growth conversations</p>
+              <h2 id="cta-banner-title">Ready to build a smarter marketing engine for your business?</h2>
+            </div>
+
+            <div className="cta-banner-actions">
+              <a href="#booking" className="btn">
+                Book a Consultation
+              </a>
+              <a href="#case-studies" className="btn btn-secondary">
+                View Case Studies
+              </a>
+            </div>
+          </div>
+        </section>
+
         <section className="section-spacing faq-section" id="faq">
           <div className="container faq-shell">
             <SectionHeader
@@ -254,24 +272,6 @@ function App() {
                   </div>
                 )
               })}
-            </div>
-          </div>
-        </section>
-
-        <section className="section-spacing cta-banner" aria-labelledby="cta-banner-title">
-          <div className="container cta-banner-inner">
-            <div>
-              <p className="eyebrow">Growth conversations</p>
-              <h2 id="cta-banner-title">Ready to build a smarter marketing engine for your business?</h2>
-            </div>
-
-            <div className="cta-banner-actions">
-              <a href="#booking" className="btn">
-                Book a Consultation
-              </a>
-              <a href="#case-studies" className="btn btn-secondary">
-                View Case Studies
-              </a>
             </div>
           </div>
         </section>
@@ -318,8 +318,8 @@ function App() {
       <footer className="site-footer">
         <div className="container footer-grid">
           <div>
-            <div className="brand footer-brand" aria-label="Northstar Marketing home">
-              Northstar<span>Marketing</span>
+            <div className="brand footer-brand" aria-label="VK Digital Marketing home">
+              VK<span>Digital Marketing</span>
             </div>
             <p className="footer-text">
               Performance-focused marketing support for ambitious Perth and WA businesses.
@@ -330,7 +330,6 @@ function App() {
             <h3>Navigation</h3>
             <ul className="footer-links">
               <li><a href="#services">Services</a></li>
-              <li><a href="#why-us">Why Us</a></li>
               <li><a href="#process">Process</a></li>
               <li><a href="#case-studies">Case Studies</a></li>
             </ul>
