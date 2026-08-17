@@ -350,14 +350,14 @@ function App() {
             <h3>Contact</h3>
             <ul className="footer-links">
               <li><a href="#booking">Book a consultation</a></li>
-              <li><a href="mailto:hello@northstarmarketing.com.au">hello@northstarmarketing.com.au</a></li>
+              <li><a href="mailto:hello@vkdigitalmarketing.com.au">hello@northstarmarketing.com.au</a></li>
               <li><a href="tel:+61800000000">+61 8 0000 0000</a></li>
             </ul>
           </div>
         </div>
 
         <div className="container footer-bottom">
-          <span>© 2026 Northstar Marketing</span>
+          <span>© 2026 VK Digital Marketing</span>
           <div className="legal-links">
             <a href="#about">Privacy</a>
             <a href="#about">Terms</a>

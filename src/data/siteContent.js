@@ -1,11 +1,9 @@
 export const navLinks = [
   { label: 'Services', href: '#services' },
-  { label: 'Why Us', href: '#why-us' },
   { label: 'Process', href: '#process' },
   { label: 'Results', href: '#results' },
   { label: 'Case Studies', href: '#case-studies' },
   { label: 'FAQ', href: '#faq' },
-  { label: 'Book a Consultation', href: '#booking' },
 ]
 
 export const heroMetrics = [
