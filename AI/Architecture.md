@@ -1,5 +1,3 @@
-Create the `Architecture.md` file defining the frontend architecture for the React.js marketing landing page.
-
 The application is frontend-only.
 
 The architecture must prioritize:

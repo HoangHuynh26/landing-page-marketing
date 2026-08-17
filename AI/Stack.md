@@ -1,5 +1,3 @@
-Create the `Stack.md` file defining the technology stack for the marketing landing page.
-
 The project is frontend-only.
 
 Mandatory technology:

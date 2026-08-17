@@ -1,5 +1,3 @@
-Create `Task03.md` defining the third implementation task for the React.js marketing landing page.
-
 This task implements the trust and social-proof sections.
 
 Implement:

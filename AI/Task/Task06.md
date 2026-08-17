@@ -1,79 +1,103 @@
-Create `Task05.md` defining the fifth implementation task for the React.js marketing landing page.
 
-This task completes the remaining conversion-focused sections.
+This task must NOT introduce major new features.
 
-Implement:
+The goal is to make the completed website production-quality.
 
-1. CTA sections
-2. About section
-3. Footer
-4. Final conversion flow
-5. Navigation refinement
+Perform a complete review of:
 
-CTA requirements:
+1. Visual consistency
+2. Responsive design
+3. Mobile usability
+4. Accessibility
+5. Performance
+6. SEO
+7. Animation
+8. Image loading
+9. Lazy loading
+10. Skeleton states
+11. Form validation
+12. Booking flow
+13. Navigation
+14. Routing
+15. Console errors
+16. Runtime errors
+17. Broken imports
+18. Unused dependencies
+19. Code duplication
+20. Component quality
 
-Primary CTA:
+Responsive testing:
 
-"Book a Consultation"
+* Large desktop
+* Desktop
+* Tablet
+* Mobile
 
-Secondary CTA:
+Verify:
 
-"View Case Studies"
+* No horizontal overflow
+* No broken layouts
+* No overlapping elements
+* No unreadable text
+* No inaccessible controls
+* No broken CTA buttons
 
-Create strategically placed CTAs without making the page feel repetitive.
+Performance:
 
-Final CTA should communicate:
+* Hero assets should load immediately.
+* Below-the-fold images should use lazy loading where appropriate.
+* Images should have stable dimensions.
+* Avoid layout shifts.
+* Remove unnecessary animations.
+* Avoid unnecessary rendering.
+* Avoid unnecessary dependencies.
 
-* Marketing growth
-* Perth/Western Australia focus
-* Professional consultation
-* Clear next action
+Accessibility:
 
-About section:
+* Keyboard navigation
+* Focus states
+* Semantic HTML
+* Form labels
+* Accessible accordion
+* Accessible booking flow
+* Accessible modal/dialog
+* Reduced-motion support
+* Sufficient contrast
 
-Include replaceable sample information about:
+Booking QA:
 
-* Agency
-* Mission
-* Marketing philosophy
-* Approach
-* Local market understanding
-* Experience
-* Commitment to measurable results
+Verify:
 
-Include a consultation CTA.
+* 30-minute intervals
+* 09:00 first slot
+* 16:00 last slot
+* 16:30 unavailable
+* Date selection
+* Service selection
+* Form validation
+* Review step
+* Confirmation
+* Success state
+* Back navigation
 
-Footer:
+SEO QA:
 
-Include:
+Verify:
 
-* Logo
-* Navigation
-* Services
-* Case Studies
-* Contact/CTA
-* Legal links if required
+* Page title
+* Meta description
+* H1
+* Heading hierarchy
+* Image alt text
+* Semantic sections
+* Natural Perth marketing keywords
 
-Ensure all navigation links work correctly.
+Do not redesign the entire website unless a serious UX problem is discovered.
 
-Ensure the complete page flow is:
-
-Navbar
-→ Hero
-→ Services
-→ Why
-→ Process
-→ Results
-→ Client Logos
-→ Case Studies
-→ Testimonials
-→ FAQ
-→ CTA
-→ About
-→ Footer
-
-Verify that CTAs correctly open or navigate to the booking experience.
+Do not introduce unnecessary libraries.
 
 Do not create backend functionality.
 
-Define acceptance criteria and testing requirements.
+Define a final production-readiness checklist.
+
+The task is complete only when the website can be considered a polished frontend landing page suitable for real-world deployment.

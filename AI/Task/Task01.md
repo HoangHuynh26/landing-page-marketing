@@ -1,61 +1,59 @@
-Create the `Rules.md` file defining coding and development rules for the React.js marketing landing page.
+Task 01 must establish the frontend foundation and design system.
 
-The purpose of this document is to prevent inconsistent, low-quality, duplicated, or unnecessarily complex implementation.
+Scope:
 
-Define rules for:
+* Inspect the existing React project.
+* Read Project.md.
+* Read Requirement.md.
+* Read Stack.md.
+* Read Design.md.
+* Read Architecture.md.
+* Read Rules.md.
+* Read Security.md.
+* Understand the existing project before modifying it.
 
-1. React components
-2. Component naming
-3. File naming
-4. Folder structure
-5. JavaScript naming
-6. Props
-7. React Hooks
-8. State management
-9. Data management
-10. Event handling
-11. Forms
-12. Validation
-13. Routing
-14. CSS
-15. Responsive design
-16. Accessibility
-17. Images
-18. Lazy loading
-19. Animations
-20. Performance
-21. Error handling
-22. Comments
-23. Code duplication
-24. Dependencies
-25. Reusability
-26. SEO
-27. Testing
-28. Git-friendly changes
+Implement:
 
-Important rules:
+1. Project structure
+2. Global styles
+3. Typography
+4. Color system
+5. Spacing system
+6. Button system
+7. Card system
+8. Container system
+9. Responsive foundation
+10. Basic reusable UI components
+11. Accessibility foundation
 
-* Use functional React components.
-* Avoid unnecessary global state.
-* Do not use Redux for simple local state.
-* Do not create unnecessary dependencies.
-* Do not duplicate UI components.
-* Do not create giant components.
-* Keep components focused.
-* Keep marketing data separate from presentation where appropriate.
-* Avoid hard-coded repeated content.
-* Use semantic HTML.
-* Maintain accessibility.
-* Avoid excessive animations.
-* Avoid unnecessary abstraction.
-* Prefer readable code over clever code.
-* Do not introduce backend code.
-* Do not modify unrelated files.
-* Reuse existing components when possible.
-* Follow existing project conventions when they already exist.
+Create reusable components where appropriate:
 
-Define a clear "Do" and "Do Not" section.
+* Button
+* Container
+* Section
+* Card
+* Heading
+* Input
+* Modal or Dialog foundation
+* Skeleton
 
-The rules should be enforceable by another AI coding agent.
+Do not implement the complete landing page yet.
 
-Do not write implementation code.
+Do not implement the complete booking flow yet.
+
+Do not create backend functionality.
+
+Acceptance criteria must be clearly defined.
+
+Include:
+
+* Task objective
+* Scope
+* Files/components involved
+* Implementation requirements
+* Dependencies
+* Acceptance criteria
+* Testing requirements
+* Out-of-scope items
+
+The task must be independently understandable by a coding AI.

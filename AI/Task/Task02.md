@@ -1,4 +1,3 @@
-Create `Task02.md` defining the second implementation task for the React.js marketing landing page.
 
 This task implements the upper part of the landing page.
 

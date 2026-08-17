@@ -1,5 +1,3 @@
-Create `Task05.md` defining the fifth implementation task for the React.js marketing landing page.
-
 This task completes the remaining conversion-focused sections.
 
 Implement:

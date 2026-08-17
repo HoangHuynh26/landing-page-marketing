@@ -1,5 +1,3 @@
-Create `Task04.md` defining the fourth implementation task for the React.js marketing landing page.
-
 This task implements the complete frontend consultation booking experience.
 
 The booking flow must be:

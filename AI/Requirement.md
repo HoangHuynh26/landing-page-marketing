@@ -1,5 +1,3 @@
-Create the `Requirement.md` file for the React.js marketing landing page project.
-
 This document must define WHAT the website must provide.
 
 Do not describe detailed implementation methods.

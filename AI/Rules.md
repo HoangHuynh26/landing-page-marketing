@@ -1,5 +1,3 @@
-Create the `Rules.md` file defining coding and development rules for the React.js marketing landing page.
-
 The purpose of this document is to prevent inconsistent, low-quality, duplicated, or unnecessarily complex implementation.
 
 Define rules for:
